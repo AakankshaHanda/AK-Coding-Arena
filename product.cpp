@@ -7,7 +7,6 @@ int main()
 {
 	int prod=11,i,n;
 	cout<<"enter numbers";
-	
 	cin>>prod;
 	for(i=11;i<=20;i++)
 	{
