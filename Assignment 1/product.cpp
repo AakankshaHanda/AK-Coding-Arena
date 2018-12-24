@@ -5,9 +5,7 @@
 using namespace std;
 int main()
 {
-	int prod=11,i,n;
-	cout<<"enter numbers";
-	cin>>prod;
+	int prod=1,i,n;
 	for(i=11;i<=20;i++)
 	{
 		if(i%3==0)
