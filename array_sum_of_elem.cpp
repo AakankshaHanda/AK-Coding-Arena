@@ -8,9 +8,14 @@ int main(){
 	cout<<endl;
 	for(int i=0;i<n;i++){
 		cin>>a[i];
-		sum+=a[i];
 	}
-	cout<<"The sum of elements is :"<<sum;
+	cout<<"Printing the elemtns of the array.\n";
+	for(int i=0;i<n;i++){
+		sum=sum+a[i];	//sum=sum+a[0]
+		cout<<a[i];		//2
+				
+	}
+	cout<<sum;
 	return 0;
 	
 }
