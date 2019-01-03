@@ -2,15 +2,20 @@
 #include<conio.h>
 using namespace std;
 int main(){
-	int a[10],n,sum=0;
+	int a[10],n;
 	cout<<"Enter the number of elements in the list.(less than 10)";
 	cin>>n;
 	cout<<endl;
-	for(int i=0;i<n;i++){
+	cin>>a[0];
+	int least = a[0];
+	for(int i=1;i<n;i++){
 		cin>>a[i];
-		sum+=a[i];
+		if(a[i]<least){
+			least = a[i];
+		}
 	}
-	cout<<"The sum of elements is :"<<sum;
+	cout<<"The smallest element is :"<<least;
 	return 0;
 	
 }
+
